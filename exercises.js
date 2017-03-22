@@ -124,11 +124,11 @@ function cacheFunction(cb) {
 	//and return 25 directly and will not invoke cb again	
   var cache = {};
 
-  return function(arg){
-    if (!cache.hasOwnProperty(arg)){
-      cache[arg] = cb(arg);
+  return function(x){
+    if (!cache.hasOwnProperty(x)){
+      cache[x] = cb(x);
     }
-    return cache[arg];
+    return cache[x];
   };
 }
 
