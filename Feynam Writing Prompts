@@ -1,5 +1,5 @@
 Callback Functions: functions that are nested within functions.
-Closure: when a function gets returned, it remember the scope from where it was written.
+Closure: when a function gets returned, it remembers the scope from where it was written.
 arguments array: a way to reach all the arguments passed to a function.
 recursion: another way to iterate.
 prototype: the mother object of all JavaScript objects.
